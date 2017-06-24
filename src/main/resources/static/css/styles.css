@@ -5,13 +5,15 @@ body {
 
 header{
   background: red;
-  background-image: url("subtle-stripes.png");
+  background-image: url("/images/subtle-stripes.png");
   text-align: center;
   font-family: verdana;
   font-size:20px;
   color: #fff;
   padding: 40px;
 }
+
+
 
 .layout__body {
   display: flex;
@@ -34,7 +36,7 @@ header{
 
 .layout__columns {
   background: red;
-  background-image: url("subtle-stripes.png");
+  background-image: url("/images/subtle-stripes.png");
 }
 
 footer {
