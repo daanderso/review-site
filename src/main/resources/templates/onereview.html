@@ -11,8 +11,16 @@
 <div class="layout__body">
 <div class="main">
 
-<p th:text="${onereview.id} + ',' + ${onereview.title} + ',' + ${onereview.reviewCategory}" />
 <img th:src="${onereview.imageUrl}"/>
+
+<p th:text="'Id: ' + ${onereview.id}"></p>
+<p th:text="'Title: ' + ${onereview.title}"></p>
+<p th:text="'Category: ' + ${onereview.reviewCategory}"></p>
+<p th:text="'Review: ' + ${onereview.content}"></p>
+<p th:text="'Date: ' + ${onereview.date}"></p>
+<p th:text="'Synopsis: ' + ${onereview.synopsis}"></p>
+
+
 
 </div>
 <nav class="layout__nav layout__columns">

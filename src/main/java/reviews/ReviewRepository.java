@@ -15,12 +15,12 @@ public class ReviewRepository {
 	//Constructor
 	public ReviewRepository() {
     
-	//Constructor
-	Review review = new Review(12345, "Saving Private Ryan", "url", "Drama", "content", "5/7/2012", "A bunch of guys save another guy in WWII", "tag");
+	//Creating review object to place into the map
+	Review review = new Review(12345, "Spiderman", "/images/spiderman.jpg", "Action", "Spiderman is a great movie. A young man finds with great power comes responsibility", "2012", "A young man is bitten by a radioactive spider", "tag");
 	reviewMap.put(review.getId(),review);
-	Review review2 = new Review(13579, "The Lego Movie", "Lego URL", "Comedy", "content", "3/15/2012", "Everything is awesome", "tag");
+	Review review2 = new Review(13579, "Superman", "/images/superman.jpg", "Action", "Thrilling. Does it get any better.", "1978", "Alien escapes his dying planet to becomes earth's new hero", "tag");
 	reviewMap.put(review2.getId(),review2);
-	Review review3 = new Review(17777, "Batman", "/images/batman.jpg", "Drama", "content", "5/7/2012", "Large bat saves Gotham City", "tag");
+	Review review3 = new Review(17777, "Batman Begins", "/images/batman.jpg", "Action", "Christian Bale is Outstanding.", "2005", "Billionaire in bat costume saves Gotham City", "tag");
 	reviewMap.put(review3.getId(),review3);
 	
 	}	
