@@ -2,38 +2,31 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 	<title>Derek's Movie Reviews</title>
-<link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css"/>
 </head>
 <body>
-<header>
-<h1>Derek's Movie Reviews</h1>
-</header>
-<div class="layout__body">
-<div class="main">
+	<header>
+		<h1>Derek's Movie Reviews</h1>
+	</header>
+	<div class="layout__body">
+		<div class="main">
 
-<img th:src="${onereview.imageUrl}"/>
+			<img th:src="${onereview.imageUrl}"/>
 
-<p th:text="'Id: ' + ${onereview.id}"></p>
-<p th:text="'Title: ' + ${onereview.title}"></p>
-<p th:text="'Category: ' + ${onereview.reviewCategory}"></p>
-<p th:text="'Review: ' + ${onereview.content}"></p>
-<p th:text="'Date: ' + ${onereview.date}"></p>
-<p th:text="'Synopsis: ' + ${onereview.synopsis}"></p>
+			<p th:text="'Id: ' + ${onereview.id}"></p>
+			<p th:text="'Title: ' + ${onereview.title}"></p>
+			<p th:text="'Category: ' + ${onereview.reviewCategory}"></p>
+			<p th:text="'Review: ' + ${onereview.content}"></p>
+			<p th:text="'Date: ' + ${onereview.date}"></p>
+			<p th:text="'Synopsis: ' + ${onereview.synopsis}"></p>
 
+		</div>
+		<nav class="layout__nav layout__columns"></nav>
+		<div class="layout__aside layout__columns"></div>
+	</div>
+	<footer>
 
-
-</div>
-<nav class="layout__nav layout__columns">
-    <p> left column</p>
-    </nav>
-    <div class="layout__aside layout__columns">
-    <p>right column</p>
-    </div>
-  </div>
- 
- <footer>
-    
- </footer>
+	</footer>
 
 </body>
 </html>

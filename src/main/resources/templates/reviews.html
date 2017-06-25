@@ -10,16 +10,11 @@
 	</header>
 	<div class="layout__body">
 		<div class="main">
-
+			<h1>Movie Titles</h1>
 			<a th:each="review: ${reviewsAsCollection}" th:href="@{http://localhost:8080/onereview/(id=${review.id})}"><div th:text="${review.title}" ></div></a>
-
 		</div>
-		<nav class="layout__nav layout__columns">
-			<p> left column</p>
-		</nav>
-		<div class="layout__aside layout__columns">
-			<p>right column</p>
-		</div>
+		<nav class="layout__nav layout__columns"></nav>
+		<div class="layout__aside layout__columns"></div>
 	</div>
 	
 	<footer>
