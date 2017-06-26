@@ -14,11 +14,11 @@
 			<a th:each="review: ${reviewsAsCollection}" th:href="@{http://localhost:8080/onereview/(id=${review.id})}"><div th:text="${review.title}" ></div></a>
 		</div>
 		<nav class="layout__nav layout__columns"></nav>
-		<div class="layout__aside layout__columns"></div>
+		<div class="layout__columns"></div>
 	</div>
 	
 	<footer>
-		
+		<p> Derek's Movie Reviews</p>
 	</footer>
 
 </body>

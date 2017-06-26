@@ -7,6 +7,8 @@ body {
 header{
   background: red;
   background-image: url("/images/subtle-stripes.png");
+  border-style: solid;
+  border-color: black;
   text-align: center;
   font-family: verdana;
   font-size:40px;
@@ -25,6 +27,8 @@ header{
 }
 .layout__columns {
   flex: 0 0 12em;
+  border-style: solid;
+  border-color: black;
 }
 .layout__nav {
   order: -1;
@@ -41,8 +45,9 @@ header{
 
 footer {
   background: black;
+  text-align: center;
   color: #fff;
-  padding: 50px;
+  padding: 5px;
 }
 
 h1 {
